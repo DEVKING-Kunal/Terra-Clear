@@ -1,0 +1,25 @@
+# Data — never commit
+data/
+*.zip
+patches/
+
+# Large model files — use ONNX instead
+checkpoints/
+*.pth
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Colab
+.config/
